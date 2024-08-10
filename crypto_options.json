@@ -1,0 +1,82 @@
+{
+    "model_options": ["Prophet", "Sarimax"],
+    "interval_options": ["1MINUTE", "3MINUTE", "5MINUTE", "15MINUTE", "1HOUR", "2HOUR", "4HOUR", "1DAY", "1WEEK"],
+    "ohlcv_options": ["open", "high", "low", "close", "volume"],
+    "crypto_options": {
+        "Bitcoin and Altcoins": [
+            {"name": "Bitcoin", "symbol": "BTCUSDT"},
+            {"name": "Ethereum", "symbol": "ETHUSDT"},
+            {"name": "Ripple", "symbol": "XRPUSDT"},
+            {"name": "Litecoin", "symbol": "LTCUSDT"},
+            {"name": "Cardano", "symbol": "ADAUSDT"},
+            {"name": "Polkadot", "symbol": "DOTUSDT"},
+            {"name": "Bitcoin Cash", "symbol": "BCHUSDT"},
+            {"name": "Chainlink", "symbol": "LINKUSDT"},
+            {"name": "Stellar", "symbol": "XLMUSDT"},
+            {"name": "Uniswap", "symbol": "UNIUSDT"}
+        ],
+        "Tokens": [
+            {"name": "Basic Attention Token", "symbol": "BATUSDT"},
+            {"name": "Compound", "symbol": "COMPUSDT"},
+            {"name": "Aave", "symbol": "AAVEUSDT"},
+            {"name": "Synthetix", "symbol": "SNXUSDT"},
+            {"name": "Yearn.finance", "symbol": "YFIUSDT"},
+            {"name": "Maker", "symbol": "MKRUSDT"},
+            {"name": "Dai", "symbol": "DAIUSDT"},
+            {"name": "Tether", "symbol": "USDTUSDT"}
+        ],
+        "Privacy Coins": [
+            {"name": "Monero", "symbol": "XMRUSDT"},
+            {"name": "Zcash", "symbol": "ZECUSDT"},
+            {"name": "Dash", "symbol": "DASHUSDT"},
+            {"name": "Verge", "symbol": "XVGUSDT"},
+            {"name": "Horizen", "symbol": "ZENUSDT"}
+        ],
+        "Stablecoins": [
+            {"name": "Tether", "symbol": "USDTUSDT"},
+            {"name": "USD Coin", "symbol": "USDCUSDT"},
+            {"name": "Dai", "symbol": "DAIUSDT"},
+            {"name": "TrueUSD", "symbol": "TUSDUSDT"},
+            {"name": "Paxos Standard", "symbol": "PAXUSDT"}
+        ],
+        "Utility Tokens": [
+            {"name": "Binance Coin", "symbol": "BNBUSDT"},
+            {"name": "Basic Attention Token", "symbol": "BATUSDT"},
+            {"name": "Chainlink", "symbol": "LINKUSDT"},
+            {"name": "Uniswap", "symbol": "UNIUSDT"},
+            {"name": "VeChain", "symbol": "VETUSDT"},
+            {"name": "Theta Token", "symbol": "THETAUSDT"},
+            {"name": "Crypto.com Coin", "symbol": "CROUSDT"},
+            {"name": "Maker", "symbol": "MKRUSDT"},
+            {"name": "Compound", "symbol": "COMPUSDT"},
+            {"name": "Filecoin", "symbol": "FILUSDT"}
+        ],
+        "Security Tokens": [
+            {"name": "Polymath", "symbol": "POLYUSDT"},
+            {"name": "tZERO", "symbol": "TZROPUSDT"},
+            {"name": "Harbor", "symbol": "RFRUSDT"},
+            {"name": "Securitize", "symbol": "DSXUSDT"},
+            {"name": "TokenSoft", "symbol": "TSFTUSDT"}
+        ],
+        "Meme Coins": [
+            {"name": "Dogecoin", "symbol": "DOGEUSDT"},
+            {"name": "Shiba Inu", "symbol": "SHIBUSDT"},
+            {"name": "DogeCash", "symbol": "DOGECUSDT"},
+            {"name": "HuskyToken", "symbol": "HUSKYUSDT"},
+            {"name": "SafeMoon", "symbol": "SAFEMOONUSDT"},
+            {"name": "Floki Inu", "symbol": "FLOKIUSDT"}
+        ],
+        "AI Coins": [
+            {"name": "SingularityNET", "symbol": "AGIUSDT"},
+            {"name": "DeepBrain Chain", "symbol": "DBCUSDT"},
+            {"name": "Fetch.ai", "symbol": "FETUSDT"},
+            {"name": "Ocean Protocol", "symbol": "OCEANUSDT"},
+            {"name": "Numerai", "symbol": "NMRUSDT"},
+            {"name": "Matrix AI Network", "symbol": "MANUSDT"},
+            {"name": "DAGlabs", "symbol": "DAGUSDT"},
+            {"name": "Effect.ai", "symbol": "EFXUSDT"},
+            {"name": "Neural Protocol", "symbol": "NRPUSDT"},
+            {"name": "AGI Coin", "symbol": "AGIUSDT"}
+        ]
+    }
+}
